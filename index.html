@@ -7,12 +7,21 @@
     <title>Do List</title>
 </head>
 <body>
-    <div  class="container"></div>
-        <div class="Do app">
-            <h2>Do List <img src=""</h2>
-        </div>
+        <div id="myDIV" class="header">
+            <h2>My To Do List</h2>
+            <input type="text" id="myInput" placeholder="Title...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+          </div>
+          
+          <ul id="myUL">
+            <li>Study List</li>
+            <li class="checked">Myself</li>
+            <li>My Name</li>
+            <li>My School</li>
+            <li>My Country</li>
+            <li>My City</li>
+          </ul>
 
-    </div>
     <script src="/app.js"></script>
 </body>
 </html>
